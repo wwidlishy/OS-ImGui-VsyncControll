@@ -55,6 +55,7 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD  ul_reason_for_call, LPVOID lpReser
 int main()
 {
 	try {
+		Gui.vsync = false;
 		Gui.NewWindow("WindowName", Vec2(500, 500), DrawCallBack,true );
 		//Gui.AttachAnotherWindow("Title","", DrawCallBack);
 	}
