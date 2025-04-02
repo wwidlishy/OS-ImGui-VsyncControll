@@ -39,6 +39,10 @@ int main()
 {
 	try {
 		/*
+		   Set Vsync.
+		*/
+		Gui.vsync = false;
+		/*
 		   New a window for using.
 		*/
 		Gui.NewWindow("WindowName", Vec2(500, 500), DrawCallBack);
